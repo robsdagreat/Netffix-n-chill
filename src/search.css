@@ -1,0 +1,30 @@
+#search{
+    border: 2px solid grey;
+    background: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+#search img{
+    width: 30px;
+    filter: contrast(0);
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#search input[type=search]{
+    width: 700px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    background: rgb(16, 16, 54);
+    background: white;
+}

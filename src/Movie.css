@@ -1,0 +1,46 @@
+#parent{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 380px;
+    border: 2px solid grey;
+    transform: translate(15%,-40%);
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+#icon{
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    float: right;
+    background: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+#info{
+    display: flex;
+    transform: translate(10%,280%);
+    color: white;
+    font-weight: bold;
+}
+  
+#info :nth-child(2){
+    margin-left: 20px;
+}
+
+#info :nth-child(3){
+    margin-left: 20px;
+}
+
+#name{
+    transform: translate(10%,500%);
+    color:  white;
+    font-weight: bold;
+    font-size: 20px;
+}

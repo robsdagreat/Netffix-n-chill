@@ -1,0 +1,68 @@
+body{
+  background: rgb(16, 16, 54);
+  height: 100%;
+  overflow-x: hidden;
+}
+.all{
+  display: flex;
+  flex-wrap: wrap; 
+  
+}
+
+#header1{
+  transform: translate(110%,50%);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+#header2{
+  transform: translate(45%,-120%);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+#trend{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.back{
+  background-image: url("./assets/imgs/icon1.jpg"); 
+
+}
+
+.back2{
+  background-image: url("./assets/imgs/icon2.jpg"); 
+
+}
+
+.back3{
+  background-image: url("./assets/imgs/icon3.jpg"); 
+
+}
+
+.back4{
+  background-image: url("./assets/imgs/icon4.jpg"); 
+
+}
+
+.back5{
+  background-image: url("./assets/imgs/icon5.jpg"); 
+
+}
+
+.back6{
+  background-image: url("./assets/imgs/icon6.jpg"); 
+
+}
+
+#recomend{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
